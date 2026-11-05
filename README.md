@@ -215,9 +215,6 @@ curl -X POST "http://localhost:8000/optimize-price" \
 
 ```
 dynaprice-revenue-optimizer/
-├── .github/
-│   └── workflows/
-│       └── ci.yml               # Multi-version Python GitHub Actions CI
 ├── api/
 │   ├── __init__.py
 │   ├── main.py                  # FastAPI server with health, predict & optimize endpoints
