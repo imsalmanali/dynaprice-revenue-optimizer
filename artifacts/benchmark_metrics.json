@@ -1,0 +1,67 @@
+{
+  "dataset_samples": 12000,
+  "train_samples": 9600,
+  "test_samples": 2400,
+  "r2_score": 0.9276,
+  "mae": 11.35,
+  "rmse": 18.06,
+  "mape_pct": 16.81,
+  "category_elasticities": {
+    "Office Supplies": {
+      "ped": -1.428597777705093,
+      "cross_ped": 1.4254566802277098,
+      "intercept": 3.79751406374676,
+      "r2": 0.2724421154079597,
+      "elasticity_class": "Highly Elastic (Sensitive to Price Increases)"
+    },
+    "Luxury Apparel": {
+      "ped": -0.7401180215668289,
+      "cross_ped": 0.7122069560185676,
+      "intercept": 3.161278424148935,
+      "r2": 0.14929760597832642,
+      "elasticity_class": "Inelastic (Pricing Power / High Margin Opportunity)"
+    },
+    "FMCG / Groceries": {
+      "ped": -1.0675207179160202,
+      "cross_ped": 1.0369196814871309,
+      "intercept": 4.8338498130329715,
+      "r2": 0.060766516116406155,
+      "elasticity_class": "Unitary Elastic (Balanced Volume/Price Tradeoff)"
+    },
+    "Consumer Electronics": {
+      "ped": -2.386522773168171,
+      "cross_ped": 2.332898444365491,
+      "intercept": 4.324435399192959,
+      "r2": 0.41998860173152697,
+      "elasticity_class": "Highly Elastic (Sensitive to Price Increases)"
+    },
+    "Home & Living": {
+      "ped": -1.844893876554676,
+      "cross_ped": 1.8068650401459367,
+      "intercept": 3.838762975118135,
+      "r2": 0.3801440299625689,
+      "elasticity_class": "Highly Elastic (Sensitive to Price Increases)"
+    }
+  },
+  "feature_importances": {
+    "cat_FMCG / Groceries": 0.3983828543260707,
+    "inventory_level": 0.24468663884806804,
+    "margin_potential": 0.10173603009550955,
+    "price_ratio_vs_competitor": 0.05748157041961007,
+    "discount_pct": 0.03602185423575833,
+    "customer_rating": 0.031145956021318567,
+    "price_ratio_vs_list": 0.030903139364654553,
+    "price_diff_vs_competitor": 0.024309313881372134,
+    "is_holiday_promo": 0.02127015509547777,
+    "ad_spend_log": 0.0126511640678837,
+    "is_weekend": 0.010765641472508055,
+    "cat_Luxury Apparel": 0.008596790631322513,
+    "cat_Home & Living": 0.00648664444751402,
+    "cat_Office Supplies": 0.006256087876654263,
+    "offered_price": 0.00464233017374553,
+    "competitor_price": 0.0018792363841923176,
+    "unit_cost": 0.0017259807462336597,
+    "list_price": 0.0010585483526753944,
+    "inventory_scarcity_flag": 6.355943089827534e-08
+  }
+}
